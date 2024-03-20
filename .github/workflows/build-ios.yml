@@ -21,6 +21,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore src/QuickApp/
     - name: Build
-      run: dotnet build src/QuickApp/QuickApp.csproj -c Release -f net8.0-ios --no-restore
+      run: dotnet build -t:Run -f net8.0-ios
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.1
