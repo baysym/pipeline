@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickApp", "QuickApp.csproj", "{51D469CC-2275-4A61-A55C-F7AA07FC35ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D469CC-2275-4A61-A55C-F7AA07FC35ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D469CC-2275-4A61-A55C-F7AA07FC35ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D469CC-2275-4A61-A55C-F7AA07FC35ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D469CC-2275-4A61-A55C-F7AA07FC35ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CC02806-604E-4888-8C4B-75AB7C44DBB3}
+	EndGlobalSection
+EndGlobal
