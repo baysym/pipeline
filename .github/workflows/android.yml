@@ -19,9 +19,6 @@ jobs:
     
     - name: Install MAUI workload
       run: dotnet workload install maui
-
-    - name: Change directory
-      run: cd src/QuickApp
     
     - name: Build
-      run: dotnet build -c Release -f:net7.0-android
+      run: dotnet build src/QuickApp/QuickApp.csproj -c Release -f:net8.0-android
